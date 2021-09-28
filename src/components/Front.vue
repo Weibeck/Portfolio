@@ -5,7 +5,12 @@ import { ref } from 'vue'
 defineProps({
   name: String,
   sum: String,
-  background: String
+  github: String,
+  facebook: String,
+  twitter: String,
+  linkedin: String,
+  instagram: String,
+  youtube: String
 })
 
 </script>
@@ -78,10 +83,20 @@ defineProps({
 
 <div class="flex justify-center text-7xl pt-72">
 <div class="titleFade">
-  <h1 class="text-white font-sans"> {{ name }}</h1>
-</div>
-</div>
 
+  <h1 class="text-white font-sans"> {{ name }}</h1> 
+
+  <ul class="list-none flex justify-center space-x-5 pt-14">
+     <i class="" ><fa :icon="['fab', 'github']" /></i>
+     <i class="" ><fa :icon="['fab', 'youtube']" /></i>
+     <i class="" ><fa :icon="['fab', 'twitter']" /></i>
+    <!-- <i class="" ><fa :icon="['fab', 'facebook']" /></i>
+     <i class="" ><fa :icon="['fab', 'instagram']" /></i> -->
+     <i class="" ><fa :icon="['fab', 'linkedin']" /></i>
+  </ul>
+  
+</div>
+</div>
 
 </template>
 

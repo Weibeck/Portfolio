@@ -8,7 +8,12 @@ import Persona from './components/Front.vue'
 <Persona 
 name="Mathias Weibeck"
 sum="UX Designer"
-background=""
+github=""
+facebook=""
+twitter=""
+linkedin=""
+instagram=""
+youtube=""
 ></Persona>
 </template>
 
@@ -40,6 +45,7 @@ body {
 // Fade in name
 .titleFade h1 {
   animation: fadeAnim ease 5s;
+  text-shadow: 2px 2px 0px #212122;
 }
 
 @keyframes fadeAnim {
@@ -52,12 +58,12 @@ body {
 }
 
 .btn1-transition{
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .btn1-transition:hover{
-  opacity: .5;
+  opacity: .7;
   font-weight: 400;
-  -webkit-transform: scale(1.1);
+  -webkit-transform: scale(1.2);
 }
 </style>
 
