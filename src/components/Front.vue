@@ -12,11 +12,6 @@ defineProps({
 
 <template>
 
-<!-- Background animation-->
-<div id="backdrop"></div>
-<div id="backcore"></div>
-<div id="topcontrol"></div>
-
 <!-- Nav bar transparent / white font -->
 <nav class="bg-black bg-opacity-0 shadow-lg">
 <div class="max-w-16xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -81,12 +76,9 @@ defineProps({
   </div>
 </nav>
 
-
-<!--<div class="min-h-screen"> </div>-->
 <div class="flex justify-center text-7xl pt-72">
 <div class="titleFade">
   <h1 class="text-white font-sans"> {{ name }}</h1>
-  <!--<p class="">{{sum}}</p>-->
 </div>
 </div>
 
