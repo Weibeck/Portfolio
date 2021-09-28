@@ -13,7 +13,7 @@ defineProps({
 <template>
 
 <!-- Nav bar transparent / white font -->
-<nav class="bg-black bg-opacity-0 shadow-lg">
+<nav class="shadow-lg">
 <div class="max-w-16xl mx-auto px-2 sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
       <div class="absolute inset-y-0 left-0 flex item-left sm:hidden">
@@ -48,7 +48,7 @@ defineProps({
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <!--<a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Dashboard</a>-->
 
-            <a href="#" class="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-l font-bold">CV</a>
+            <a href="#" class="text-white hover:bg-indigo-700 hover:text-white px-3 py-2 rounded-md text-l font-bold">CV</a>
 
             <a href="#" class="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-l font-bold">Projects</a>
 
