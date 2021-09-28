@@ -48,13 +48,13 @@ defineProps({
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <!--<a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Dashboard</a>-->
 
-            <a href="#" class="text-white hover:bg-indigo-700 hover:text-white px-3 py-2 rounded-md text-l font-bold">CV</a>
+            <a href="#" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l">CV</a>
 
-            <a href="#" class="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-l font-bold">Projects</a>
+            <a href="#" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l">Projects</a>
 
-            <a href="#" class="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-l font-bold">Skillset</a>
+            <a href="#" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l">Skillset</a>
 
-            <a href="#" class="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-l font-bold">About</a>
+            <a href="#" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l">About</a>
           </div>
         </div>
       </div>

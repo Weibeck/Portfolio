@@ -51,6 +51,14 @@ body {
   }
 }
 
+.btn1-transition{
+  transition: 0.5s;
+}
+.btn1-transition:hover{
+  opacity: .5;
+  font-weight: 400;
+  -webkit-transform: scale(1.1);
+}
 </style>
 
 
