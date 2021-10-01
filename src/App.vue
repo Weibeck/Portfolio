@@ -8,7 +8,7 @@ import Persona from './components/Front.vue'
 <Persona 
 name="Mathias Weibeck"
 sum="UX Designer"
-github=""
+github="https://github.com/Weibeck"
 facebook=""
 twitter=""
 linkedin=""
@@ -64,6 +64,12 @@ body {
   opacity: .7;
   font-weight: 400;
   -webkit-transform: scale(1.2);
+}
+
+.social-btn {
+color:white;
+
+
 }
 </style>
 
