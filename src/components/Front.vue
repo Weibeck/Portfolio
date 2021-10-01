@@ -87,10 +87,10 @@ defineProps({
   <h1 class="text-white font-sans"> {{ name }}</h1> 
 
   <ul class="list-none flex justify-center space-x-5 pt-14">
-     <li><a href="https://github.com/"><i class="social-btn" ><fa :icon="['fab', 'github']" href="#"/></i></a></li>
-     <li><a href="https://www.youtube.com/"><i class="social-btn" ><fa :icon="['fab', 'youtube']" href="#"/></i></a></li>
-     <li><a href="https://twitter.com"><i class="social-btn" ><fa :icon="['fab', 'twitter']" href="#"/></i></a></li>
-     <li><a href="https://www.linkedin.com/"><i class="social-btn" ><fa :icon="['fab', 'linkedin']" href="#"/></i></a></li>
+     <li><a href="https://github.com/" class="social-btn hover:text-gray-800"><i><fa :icon="['fab', 'github']" href="#"/></i></a></li>
+     <li><a href="https://www.youtube.com/"><i class="social-btn hover:text-gray-800" ><fa :icon="['fab', 'youtube']" href="#"/></i></a></li>
+     <li><a href="https://twitter.com"><i class="social-btn hover:text-gray-800" ><fa :icon="['fab', 'twitter']" href="#"/></i></a></li>
+     <li><a href="https://www.linkedin.com/"><i class="social-btn hover:text-gray-800" ><fa :icon="['fab', 'linkedin']" href="#"/></i></a></li>
     <!-- <i class="" ><fa :icon="['fab', 'facebook']" /></i>
      <i class="" ><fa :icon="['fab', 'instagram']" /></i> -->
   </ul>

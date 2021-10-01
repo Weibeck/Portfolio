@@ -57,6 +57,7 @@ body {
   }
 }
 
+// Transition header buttons
 .btn1-transition{
   transition: 0.3s;
 }
@@ -66,9 +67,14 @@ body {
   -webkit-transform: scale(1.2);
 }
 
+
+// Transition social media buttons
 .social-btn {
 color:white;
 
+.social-btn:hover{
+  -webkit-transform: scale(1.2);
+}
 
 }
 </style>
