@@ -43,10 +43,15 @@ body {
 }
 
 // Fade in name
-.titleFade h1 {
-  animation: fadeAnim ease 5s;
-  text-shadow: 2px 2px 0px #212122;
+
+.main-wrap {
+  margin: 10px;
 }
+
+.main-wrap h1{
+  animation: fadeAnim ease 4s;
+  text-shadow: 2px 2px 0px #212122;
+ }
 
 @keyframes fadeAnim {
   0% {
@@ -67,15 +72,12 @@ body {
   -webkit-transform: scale(1.2);
 }
 
-
 // Transition social media buttons
 .social-btn {
-color:white;
-
-.social-btn:hover{
-  -webkit-transform: scale(1.2);
-}
-
+  transition: 0.5s;
+  transition-delay: 1s;
+  animation: fadeAnim ease 8s;
+  color:white;
 }
 </style>
 

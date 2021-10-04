@@ -81,16 +81,16 @@ defineProps({
   </div>
 </nav>
 
-<div class="flex justify-center text-7xl pt-72">
-<div class="titleFade">
+<div class="flex justify-center text-7xl pt-60">
+<div class="main-wrap">
 
-  <h1 class="text-white font-sans"> {{ name }}</h1> 
+ <h1 class="text-white font-sans">{{ name }} </h1>
 
-  <ul class="list-none flex justify-center space-x-5 pt-14">
-     <li><a href="https://github.com/" class="social-btn hover:text-gray-800"><i><fa :icon="['fab', 'github']" href="#"/></i></a></li>
-     <li><a href="https://www.youtube.com/"><i class="social-btn hover:text-gray-800" ><fa :icon="['fab', 'youtube']" href="#"/></i></a></li>
-     <li><a href="https://twitter.com"><i class="social-btn hover:text-gray-800" ><fa :icon="['fab', 'twitter']" href="#"/></i></a></li>
-     <li><a href="https://www.linkedin.com/"><i class="social-btn hover:text-gray-800" ><fa :icon="['fab', 'linkedin']" href="#"/></i></a></li>
+  <ul class="list-none flex justify-center space-x-4 pt-24">
+     <li><a href="https://github.com/" class="social-btn hover:text-gray-900"><i><fa :icon="['fab', 'github']" size="xs" href="#"/></i></a></li>
+     <li><a href="https://www.youtube.com/"><i class="social-btn hover:text-gray-900" ><fa :icon="['fab', 'youtube']" size="xs" href="#"/></i></a></li>
+     <li><a href="https://twitter.com"><i class="social-btn hover:text-gray-900" ><fa :icon="['fab', 'twitter']" size="xs" href="#"/></i></a></li>
+     <li><a href="https://www.linkedin.com/"><i class="social-btn hover:text-gray-900" ><fa :icon="['fab', 'linkedin']" size="xs" href="#"/></i></a></li>
     <!-- <i class="" ><fa :icon="['fab', 'facebook']" /></i>
      <i class="" ><fa :icon="['fab', 'instagram']" /></i> -->
   </ul>
