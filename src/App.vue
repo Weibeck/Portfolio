@@ -5,16 +5,12 @@ import Persona from './components/Home.vue'
 </script>
 
 <template>
-<Persona 
-name="Mathias Weibeck"
-sum="UX-Design / Front End - Denmark - Passion for technology"
-></Persona>
+  <Persona name="Mathias Weibeck" sum="UX-Design / Front End - Denmark - Passion for technology"></Persona>
 </template>
 
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-
 }
 </style>
 
