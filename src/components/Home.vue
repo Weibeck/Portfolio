@@ -4,13 +4,7 @@ import { ref } from 'vue'
 
 defineProps({
   name: String,
-  sum: String,
-  github: String,
-  facebook: String,
-  twitter: String,
-  linkedin: String,
-  instagram: String,
-  youtube: String
+  sum: String
 })
 
 </script>
@@ -86,20 +80,102 @@ defineProps({
 
  <h1 class="text-white font-sans">{{ name }} </h1>
 
-  <ul class="list-none flex justify-center space-x-4 pt-24">
-     <li><a href="https://github.com/" class="social-btn hover:text-gray-900"><i><fa :icon="['fab', 'github']" size="xs" href="#"/></i></a></li>
+ <p class="line-1 text-white">{{sum}}</p>
+
+  <ul class="list-none flex justify-center space-x-4 pt-14">
+     <li><a href="https://github.com/" class="social-btn hover:text-gray-800"><i><fa :icon="['fab', 'github']" size="xs" href="#"/></i></a></li>
      <li><a href="https://www.youtube.com/"><i class="social-btn hover:text-gray-900" ><fa :icon="['fab', 'youtube']" size="xs" href="#"/></i></a></li>
      <li><a href="https://twitter.com"><i class="social-btn hover:text-gray-900" ><fa :icon="['fab', 'twitter']" size="xs" href="#"/></i></a></li>
      <li><a href="https://www.linkedin.com/"><i class="social-btn hover:text-gray-900" ><fa :icon="['fab', 'linkedin']" size="xs" href="#"/></i></a></li>
-    <!-- <i class="" ><fa :icon="['fab', 'facebook']" /></i>
-     <i class="" ><fa :icon="['fab', 'instagram']" /></i> -->
   </ul>
-  
 </div>
 </div>
 
 </template>
 
-<style scoped>
+<style lang="scss">
+// CSS Background/Gradiant
+body {
+  background: linear-gradient(-45deg, #7452ee, #c24e31, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+// Fade in name
+
+.main-wrap {
+  margin: 10px;
+}
+
+.main-wrap h1{
+  animation: fadeAnim ease-in 2s;
+  text-shadow: 2px 2px 0px #212122;
+  text-align: center;
+ }
+
+// Transition header buttons
+.btn1-transition{
+  transition: 0.3s;
+}
+.btn1-transition:hover{
+  opacity: .7;
+  font-weight: 400;
+  -webkit-transform: scale(1.2);
+}
+
+// Transition social media buttons
+.social-btn {
+  animation: fadeAnim ease-in 3s;
+  color:white;
+}
+
+@keyframes fadeAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Summary text fade in - move down
+.line-1 {
+font-size: 25%;
+text-align: center;
+position:relative;
+animation:fade-in-move-down 2s ease-out;
+//animation-iteration-count:3;
+top: 30px;
+/* Safari and Chrome */
+-webkit-animation:fade-in-move-down 2s;
+//-webkit-animation-iteration-count:3;
+opacity: 0;
+animation-fill-mode: forwards;
+animation-delay: 2s;
+}
+
+@keyframes fade-in-move-down
+{ 0% {top:-25px; opacity: 0;}
+  100% {top:30px; opacity: 1}
+}
+
+@-webkit-keyframes fade-in-move-down
+{
+0% {top:-25px; opacity: 0;}
+100% {top:30px; opacity: 1;}
+}
 
 </style>
