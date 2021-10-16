@@ -1,11 +1,11 @@
 <template lang="">
     <div>
-        <h1> No Namer Skid </h1>
+        <h1> Big Projects </h1>
     </div>
 </template>
 <script>
 export default {
-
+    
 }
 </script>
 <style lang="">

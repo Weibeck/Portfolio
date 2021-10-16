@@ -103,7 +103,7 @@ defineProps({
   //-webkit-animation-iteration-count:3;
   opacity: 0;
   animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 @keyframes fade-in-move-down {

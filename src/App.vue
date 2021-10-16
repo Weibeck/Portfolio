@@ -69,11 +69,11 @@
 
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">
-            <router-link to="/" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l">CV</router-link>
-            <router-link to="/" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l">Projects</router-link>
-            <router-link to="/" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l">Skillset</router-link>
+            <router-link to="/" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l"><fa :icon="['fa', 'home']" size="lg"/></router-link>
+            <router-link to="/resume" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l">CV</router-link>
+            <router-link to="/projects" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l">Projects</router-link>
+            <router-link to="/skillset" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l">Skillset</router-link>
             <router-link to="/about" class="text-white hover:text-black btn1-transition px-3 py-2 rounded-md text-l">About</router-link>
-          
           </div>
         </div>
       </div>
