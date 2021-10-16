@@ -40,12 +40,8 @@ defineProps({
             </i>
           </a>
         </li>
-        <li>
-          <a href="https://www.linkedin.com/">
-            <i class="social-btn hover:text-gray-900">
-              <fa :icon="['fab', 'linkedin']" size="xs" href="#" />
-            </i>
-          </a>
+        <li> 
+          <a href="https://www.linkedin.com/"> <i class="social-btn hover:text-gray-900"> <fa :icon="['fab', 'linkedin']" size="xs" href="#" /></i></a>
         </li>
       </ul>
     </div>
