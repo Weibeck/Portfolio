@@ -23,7 +23,7 @@ export default {
         menuItems: [
           {title: "Home", link: "/"},
           {title: "Projects", link: "/projects"},
-          {title: "Skillset", link: "/skillset"},
+          {title: "Skills", link: "/skills"},
           {title: "About", link: "/about"},
         ]
       };

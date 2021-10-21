@@ -1,7 +1,8 @@
 <template>
-    <div>
+   
+   <div class="pt-72">
               <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
-  <strong class="font-bold">Skillset goes here</strong>
+  <strong class="font-bold">Skills goes here</strong>
 </div>
     </div>
 </template>

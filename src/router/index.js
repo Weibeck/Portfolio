@@ -2,7 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import Home from "/src/components/Home.vue";
 import About from "/src/components/About.vue";
 import Projects from "/src/components/Projects.vue";
-import Skillset from "/src/components/Skillset.vue";
+import Skills from "/src/components/Skills.vue";
 import Resume from "/src/components/Resume.vue";
 
 const routes = [
@@ -22,9 +22,9 @@ const routes = [
     component: Projects,
   },
   {
-    path: "/skillset",
-    name: "Skillset",
-    component: Skillset,
+    path: "/skills",
+    name: "Skills",
+    component: Skills,
   },
   {
     path: "/resume",

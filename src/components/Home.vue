@@ -61,25 +61,19 @@
 <style lang="scss">
 
 #front {
-  background: linear-gradient(-70deg, #7452ee, #c24e31, #208fb8, #1cac8a);
+  background: linear-gradient(-90deg, rgb(209, 144, 22), rgb(56, 56, 233), rgb(84, 11, 126), rgb(209, 144, 22));
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 20s ease infinite;
   min-height: 100vh;
   margin: 0;
 }
 
 @keyframes gradient {
   0% {
-    background-position: 0% 25%;
-  }
-  25% {
-    background-position: 25% 50%;
+    background-position: 0% 50%;
   }
   50% {
     background-position: 100% 50%;
-  }
-  75% {
-    background-position: 50% 25%;
   }
   100% {
     background-position: 0% 50%;
