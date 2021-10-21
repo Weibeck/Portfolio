@@ -10,6 +10,8 @@ import router from './router'
 
 library.add(faGithub, faYoutube, faTwitter, faLinkedin, faFacebook, faInstagram, faHome);
 
+
+
 createApp(App)
 .component('fa', FontAwesomeIcon)
 .use(router)

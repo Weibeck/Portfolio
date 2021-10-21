@@ -1,21 +1,11 @@
-<script setup>
-
-// Old code - remove later
-import { ref } from 'vue'
-
-
-defineProps({
-  name: String,
-  sum: String
-})
-
-</script>
 
 <template>
-  <div class="flex justify-center text-7xl pt-60">
+<vue-scroll-snap :fullscreen="true">
+<div class="item">
+<div id="front">
+  <div class="flex justify-center text-7xl pt-72 ">
     <div class="main-wrap">
       <h1 class="text-white font-sans">Mathias Weibeck</h1>
-
       <p class="line-1 text-white">UX-Design / Front End - Denmark - Passion for technology</p>
 
       <ul class="list-none flex justify-center space-x-4 pt-14">
@@ -46,11 +36,55 @@ defineProps({
       </ul>
     </div>
   </div>
+</div>
+</div>
+
+<div class="item bg-gray-200">
+<h2 class="justify-center pt-72">WIP WIP WIP WIP </h2>
+</div>
+
+<div class="item bg-blue-400">
+<h3 class="justify-center pt-72">WIP WIP WIP WIP </h3>
+</div>
+</vue-scroll-snap>
 </template>
 
-<style lang="scss">
-// Fade in name
+<script>
+    import VueScrollSnap from "vue-scroll-snap";
+    export default {
+      name: "FullscreenVertical",
+        components: {VueScrollSnap}
+    };
 
+</script>
+
+<style lang="scss">
+
+#front {
+  background: linear-gradient(-70deg, #7452ee, #c24e31, #208fb8, #1cac8a);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  min-height: 100vh;
+  margin: 0;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 25%;
+  }
+  25% {
+    background-position: 25% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 25%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .main-wrap {
   margin: 10px;
 }
@@ -59,16 +93,6 @@ defineProps({
   animation: fadeAnim ease-in 2s;
   text-shadow: 2px 2px 0px #212122;
   text-align: center;
-}
-
-// Transition header buttons
-.btn1-transition {
-  transition: 0.3s;
-}
-.btn1-transition:hover {
-  opacity: 0.7;
-  font-weight: 400;
-  -webkit-transform: scale(1.2);
 }
 
 // Transition social media buttons

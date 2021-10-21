@@ -1,9 +1,20 @@
-<template lang="">
+<template>
     <div>
-              <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
-  <strong class="font-bold">About me goes here</strong>
+    <section class="fullpage">
+    <h1>Section 1</h1>
+</section>
+<section class="fullpage">
+    <h1>Section 2</h1>
+</section>
+<section class="fullpage">
+    <h1>Section 3</h1>
+</section>
+<section class="fullpage">
+    <h1>Section 4</h1>
+</section>
 </div>
-    </div>
+
+
 </template>
 <script>
 export default {
