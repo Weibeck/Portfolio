@@ -42,7 +42,7 @@
 <div class="grid grid-rows-3 grid-flow-col gap-4">
 
 <div class="row-span-3 py-8 pl-16">
-<img class="rounded-xl mx-auto shadow-xl" src="/src/assets/cv_pic.png" alt="" width="384" height="512">
+<img class="rounded-xl mx-auto shadow-xl" src="../assets/cv_pic.png" alt="" width="384" height="512">
 </div>
 
 
@@ -51,7 +51,7 @@
       <h2 class="font-medium tracking-wide text-left text-7xl pt-16">
         Hello There!
       </h2>
-</blockquote>
+    </blockquote>
 
 </div>
 
