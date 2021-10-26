@@ -12,7 +12,7 @@ library.add(faGithub, faYoutube, faTwitter, faLinkedin, faFacebook, faInstagram,
 
 
 
-createApp(App)
+const app = createApp(App)
 .component('fa', FontAwesomeIcon)
 .use(router)
 .mount('#app')
