@@ -42,7 +42,7 @@
 <div class="grid grid-rows-3 grid-flow-col gap-4">
 
 <div class="row-span-3 py-8 pl-16">
-<img class="rounded-xl mx-auto shadow-xl" src="../assets/cv_pic.png" alt="" width="384" height="512">
+<img class="rounded-xl mx-auto shadow-xl" :src="CvImage" alt="" width="384" height="512">
 </div>
 
 
@@ -80,7 +80,15 @@
 </template>
 
 <script>
-
+    import CvImage from "../assets/cv_pic.png"
+    
+    export default {
+        data: function () {
+            return {
+                CvImage: CvImage
+            }
+        }
+    }
 </script>
 
 <style lang="scss">
