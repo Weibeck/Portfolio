@@ -51,14 +51,16 @@
       <h2 class="font-medium tracking-wide text-left text-7xl pt-16">
         Hello There!
       </h2>
-    </blockquote>
+</blockquote>
 
 </div>
 
 <div class="row-span-2">
 <blockquote>
-      <p class="font-sans tracking-wide w-96 text-left text-xl font-light">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <p class="font-sans tracking-wide w-auto text-left text-2xl font-light">
+        I'm Mathias Weibeck, <br>
+        UX/UI Designer - Graduate 2019 <span style='font-size:35px;'>&#127891;</span> <br>
+        Southern University of Denmark
       </p>
       <!-- I'm Mathias Weibeck, 
            UX/UI Design - Graduate 2019

@@ -1,9 +1,9 @@
 <template>
-<nav :class="{ 'scrolled': !atTopOfPage }" class="max-w-16xl mx-auto px-2 sm:px-6 lg:px-8">
+<nav :class="{ 'scrolled': !atTopOfPage }" class="w-screen mx-auto px-2 sm:px-6 lg:px-8">
   <div>
-    <div class="flex items-center justify-between h-16">
+    <div class="flex items-center h-16">
       <router-link
-        class="flex space-x-4"
+        class="space-x-4"
         v-for="item in menuItems"
         :key="item.title"
         :to="item.link"
@@ -56,6 +56,7 @@ nav {
   position: fixed;
   z-index: 99;
   padding-top: 0px;
+  transition: ease-in 250ms;
   }
 
 nav a {
@@ -74,16 +75,18 @@ nav a:hover {
 
 nav a.router-link-exact-active {
   text-decoration: underline;
-  font-weight: 550;
+  font-weight: 500;
   }
 
 nav.scrolled {
-  background-color: rgba($color: white, $alpha: 0.5);
+  background-color: rgba($color: white, $alpha: 0.2);
+  transition: ease-in 250ms;
 a{
   color: rgba($color: black, $alpha: 1.0);
 }
 a:hover {
-  font-weight: 400;
+  font-weight: 500;
+  color: rgba($color: rgb(83, 140, 247), $alpha: 1.0);
 }
   }
 
