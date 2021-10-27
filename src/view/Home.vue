@@ -86,7 +86,7 @@
 </template>
 
 <script>
-    import CvImage from "../assets/cv_pic.png"
+    import CvImage from "../assets/cv_pic.webp"
     import ProgressBar from "../components/ProgressBar.vue"
 
     export default {
