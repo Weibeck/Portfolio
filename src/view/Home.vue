@@ -39,7 +39,7 @@
 </div>
 
 <div class="item bg-gray-100"> 
-<div class="container mx-auto px-4 bg-white">
+<div class="container mx-auto px-4 bg-white shadow-lg">
 <div class="grid grid-rows-3 grid-flow-col gap-4">
 <div class="row-span-3 py-8 pl-16">
 <img class="rounded-xl mx-auto shadow-xl" :src="CvImage" alt="" width="384" height="512">
@@ -61,26 +61,42 @@
         Southern University of Denmark
       </p>
     </blockquote>
+
+<div class="pt-6">
+ <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+  <a href="/about"> Read More</a>
+</button>
+</div>
+
 </div>
 </div>
 
 </div>
-<div class="container mx-auto px-4 bg-gradient-to-b from-blue-500">
-<h3 class="font-medium tracking-wide text-center text-4xl py-4 text-white">Skills</h3>
+<div class="container mx-auto px-4 bg-blue-900 justify-center text-white">
 
-<ProgressBar skill='HTML'></ProgressBar>
-<ProgressBar skill='CSS'></ProgressBar>
-<ProgressBar skill='JavaScript'></ProgressBar>
-<ProgressBar skill='C#'></ProgressBar>
-<ProgressBar skill='Lorem ipsum'></ProgressBar>
-<ProgressBar skill='Lorem ipsum'></ProgressBar>
-<ProgressBar skill='Lorem ipsum'></ProgressBar>
-<ProgressBar skill='Lorem ipsum'></ProgressBar>
-<ProgressBar skill='Lorem ipsum'></ProgressBar>
-<ProgressBar skill='Lorem ipsum'></ProgressBar>
-<ProgressBar skill='Lorem ipsum'></ProgressBar>
+
+<h3 class="font-medium tracking-wide text-center text-4xl py-4">Skills</h3>
+
+
+<ProgressBar skill='HTML/CSS' percent="90%"></ProgressBar>
+<ProgressBar skill='JavaScript' percent="85%"></ProgressBar>
+<ProgressBar skill='C#' percent="75%"></ProgressBar>
+<ProgressBar skill='React.js' percent="45%"></ProgressBar>
+<ProgressBar skill='Vue.js' percent="55%"></ProgressBar>
+<ProgressBar skill='Phaser.js' percent="80%"></ProgressBar>
+
+
 </div>
+
+
+<div class="container mx-auto px-4 pt-14">
+
+<p> </p>
+
 </div>
+
+</div>
+
 
 
 </template>

@@ -1,13 +1,13 @@
 <template lang="">
 <div class="row-span-1 w-auto h-auto">
 
-<p class="font-sans tracking-wide w-auto text-left text-lg font-semibold"> 
+<p class="font-sans w-auto text-left text-base font-semibold"> 
 {{skill}}
 </p>
 
-<div class="relative pt-2">
+<div class="relative pt-2 w-3/4 py-2">
   <div class="overflow-hidden h-4 text-xs flex rounded bg-white shadow-lg">
-    <div style="width: 30%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-300"> 
+    <div :style="style" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"> 
     </div>
   </div>
 </div>
@@ -16,16 +16,24 @@
 
 <script>
 export default {
-    props: ['skill'],
+    props: [
+        'skill',
+        'percent'
+        ],
 
     data(){
         return{
-            
+            style: {
+                'width': this.percent
+            }
         }
     }
 }
 </script>
 
-<style lang="">
+<style lang="scss">
+.percent-class{
+    width: var(--width);
+}
     
 </style>

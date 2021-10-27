@@ -22,8 +22,7 @@ export default {
       return {
         menuItems: [
           {title: "Home", link: "/"},
-          {title: "Projects", link: "/projects"},
-          {title: "Skills", link: "/skills"},
+          {title: "Resume", link: "/resume"},
           {title: "About", link: "/about"},
         ],
         atTopOfPage: true  
@@ -35,7 +34,7 @@ beforeMount () {
 
 methods: {
     handleScroll(){
-        if(window.pageYOffset>500){
+        if(window.pageYOffset>900){
             if(this.atTopOfPage) this.atTopOfPage = false
         }else{
             if(!this.atTopOfPage) this.atTopOfPage = true
