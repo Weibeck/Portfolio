@@ -38,13 +38,12 @@
 </div>
 </div>
 
-<div class="container mx-auto px-4">
+<div class="item bg-gray-100"> 
+<div class="container mx-auto px-4 bg-white">
 <div class="grid grid-rows-3 grid-flow-col gap-4">
-
 <div class="row-span-3 py-8 pl-16">
 <img class="rounded-xl mx-auto shadow-xl" :src="CvImage" alt="" width="384" height="512">
 </div>
-
 
 <div class="col-span-2">
 <blockquote>
@@ -52,37 +51,49 @@
         Hello There!
       </h2>
     </blockquote>
-
 </div>
 
 <div class="row-span-2">
 <blockquote>
       <p class="font-sans tracking-wide w-auto text-left text-2xl font-light">
         I'm Mathias Weibeck, <br>
-        UX/UI Designer - Graduate 2019 <span style='font-size:35px;'>&#127891;</span> <br>
+        UX Designer - Graduate 2019 <span style='font-size:35px;'>&#127891;</span> <br>
         Southern University of Denmark
       </p>
-      <!-- I'm Mathias Weibeck, 
-           UX/UI Design - Graduate 2019
-           Southern University of Denmark (Viking Emoji)
-                              
-                              -->
     </blockquote>
-
+</div>
 </div>
 
 </div>
+<div class="container mx-auto px-4 bg-gradient-to-b from-blue-500">
+<h3 class="font-medium tracking-wide text-center text-4xl py-4 text-white">Skills</h3>
 
+<ProgressBar skill='HTML'></ProgressBar>
+<ProgressBar skill='CSS'></ProgressBar>
+<ProgressBar skill='JavaScript'></ProgressBar>
+<ProgressBar skill='C#'></ProgressBar>
+<ProgressBar skill='Lorem ipsum'></ProgressBar>
+<ProgressBar skill='Lorem ipsum'></ProgressBar>
+<ProgressBar skill='Lorem ipsum'></ProgressBar>
+<ProgressBar skill='Lorem ipsum'></ProgressBar>
+<ProgressBar skill='Lorem ipsum'></ProgressBar>
+<ProgressBar skill='Lorem ipsum'></ProgressBar>
+<ProgressBar skill='Lorem ipsum'></ProgressBar>
 </div>
-<div class="item bg-blue-400">
-<h3 class="justify-center pt-72">WIP WIP WIP WIP </h3>
 </div>
+
+
 </template>
 
 <script>
     import CvImage from "../assets/cv_pic.png"
-    
+    import ProgressBar from "../components/ProgressBar.vue"
+
     export default {
+        components: {
+          ProgressBar
+        },
+
         data: function () {
             return {
                 CvImage: CvImage
