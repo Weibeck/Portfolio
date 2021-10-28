@@ -73,21 +73,55 @@
 
 </div>
 <div class="container mx-auto px-4 bg-blue-900 justify-center text-white">
+<div class="grid grid-cols-2 space-x-8">
 
-
-<h3 class="font-medium tracking-wide text-center text-4xl py-4">Skills</h3>
-
-
+<div>
+<h3 class="font-medium tracking-wide text-center text-4xl py-4 font-sans">Hard Skills</h3>
 <ProgressBar skill='HTML/CSS' percent="90%"></ProgressBar>
 <ProgressBar skill='JavaScript' percent="85%"></ProgressBar>
 <ProgressBar skill='C#' percent="75%"></ProgressBar>
 <ProgressBar skill='React.js' percent="45%"></ProgressBar>
 <ProgressBar skill='Vue.js' percent="55%"></ProgressBar>
 <ProgressBar skill='Phaser.js' percent="80%"></ProgressBar>
-
-
 </div>
 
+<div>
+  <h3 class="font-medium tracking-wide text-center text-4xl py-4 font-sans">Soft Skills</h3>
+<ul class="list-disc relative p-4 font-sans tracking-wide w-auto text-left text-2xl font-semi-bold">
+  <li>
+<p> Critical Thinker </p>
+  </li>
+  <li>
+<p> Eager to learn and evolve skillset </p>
+  </li>
+    <li>
+<p> Strong communication </p>
+  </li>
+    <li>
+<p> Familiar with Agile Workflow / SCRUM </p>
+  </li>
+    <li>
+<p> Quick Learner </p>
+  </li>
+      <li>
+<p> Creative Mindset </p>
+  </li>
+    <li>
+<p> Adaptability  </p>
+  </li>
+   <li>
+<p> Teamplayer - Dependability within a team environment </p>
+  </li>
+  <li>
+<p> Positive and Goal-oriented Personality </p>
+  </li>
+
+
+</ul>
+
+</div>
+</div>
+</div>
 
 <div class="container mx-auto px-4 pt-14">
 
