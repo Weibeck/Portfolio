@@ -42,7 +42,7 @@
 <div class="container mx-auto px-4 bg-white shadow-lg">
 <div class="grid grid-rows-3 grid-flow-col gap-4">
 <div class="row-span-3 py-8 pl-16">
-<img class="rounded-xl mx-auto shadow-xl" :src="CvImage" alt="" width="384" height="512">
+<img class="rounded-xl mx-auto shadow-xl" :src="CvImage" alt="Profile Picture" width="384" height="512">
 </div>
 
 <div class="col-span-2">
@@ -72,7 +72,7 @@
 </div>
 
 </div>
-<div class="container mx-auto px-4 bg-blue-900 justify-center text-white">
+<div class="container mx-auto px-4 bg-blue-900 justify-center text-white mb-8">
 <div class="grid grid-cols-2 space-x-8">
 
 <div>
@@ -87,7 +87,7 @@
 
 <div>
   <h3 class="font-medium tracking-wide text-center text-4xl py-4 font-sans">Soft Skills</h3>
-<ul class="list-disc relative p-4 font-sans tracking-wide w-auto text-left text-2xl font-semi-bold">
+<ul class="list-disc relative p-7 font-sans tracking-wide w-auto text-left text-2xl font-semi-bold">
   <li>
 <p> Critical Thinker </p>
   </li>
@@ -123,13 +123,27 @@
 </div>
 </div>
 
-<div class="container mx-auto px-4 pt-14">
+<div class="container mx-auto pt-4">
+  <h1 class="font-semi-bold text-center text-4xl pb-12 font-sans"> Github Projects  </h1>
+<div class="grid grid-cols-3 space-x-8 text-center">
 
-<p> </p>
+ <ProjectCard></ProjectCard>
+ <ProjectCard></ProjectCard>
+ <ProjectCard></ProjectCard>
+
+</div>
+</div>
+
+
+<div class="container mx-auto pt-24">
+
 
 </div>
 
+
+
 </div>
+
 
 
 
@@ -138,10 +152,12 @@
 <script>
     import CvImage from "../assets/cv_pic.webp"
     import ProgressBar from "../components/ProgressBar.vue"
+    import ProjectCard from "../components/ProjectCard.vue"
 
     export default {
         components: {
-          ProgressBar
+          ProgressBar,
+          ProjectCard
         },
 
         data: function () {
