@@ -2,6 +2,7 @@
 <template>
 <div class="item">
 <div id="front">
+  <!-- Front page-->
   <div class="flex justify-center text-7xl pt-72">
     <div class="main-wrap">
       <h1 class="text-white font-sans">Mathias Weibeck</h1>
@@ -44,7 +45,7 @@
 <div class="row-span-3 py-8 pl-16">
 <img class="rounded-xl mx-auto shadow-xl" :src="CvImage" alt="Profile Picture" width="384" height="512">
 </div>
-
+<!-- quick about me -->
 <div class="col-span-2">
 <blockquote>
       <h2 class="font-medium tracking-wide text-left text-7xl pt-16">
@@ -74,15 +75,15 @@
 </div>
 <div class="container mx-auto px-4 bg-blue-900 justify-center text-white mb-8">
 <div class="grid grid-cols-2 space-x-8">
-
+<!-- skill sets -->
 <div>
 <h3 class="font-medium tracking-wide text-center text-4xl py-4 font-sans">Hard Skills</h3>
-<ProgressBar skill='HTML/CSS' percent="90%"></ProgressBar>
-<ProgressBar skill='JavaScript' percent="85%"></ProgressBar>
-<ProgressBar skill='C#' percent="75%"></ProgressBar>
+<ProgressBar skill='HTML/CSS' percent="85%"></ProgressBar>
+<ProgressBar skill='JavaScript' percent="75%"></ProgressBar>
+<ProgressBar skill='C#' percent="50%"></ProgressBar>
 <ProgressBar skill='React.js' percent="45%"></ProgressBar>
 <ProgressBar skill='Vue.js' percent="55%"></ProgressBar>
-<ProgressBar skill='Phaser.js' percent="80%"></ProgressBar>
+<ProgressBar skill='Phaser.js' percent="70%"></ProgressBar>
 </div>
 
 <div>
@@ -123,24 +124,22 @@
 </div>
 </div>
 
-<div class="container mx-auto pt-4">
-  <h1 class="font-semi-bold text-center text-4xl pb-12 font-sans"> Github Projects  </h1>
-<div class="grid grid-cols-3 space-x-8 text-center">
-
- <ProjectCard></ProjectCard>
- <ProjectCard></ProjectCard>
- <ProjectCard></ProjectCard>
+<div class="container mx-auto pt-4 w-3/4">
+  <h1 class="font-semi-bold text-center text-4xl pb-12 font-sans"> Projects  </h1>
+<div class="grid grid-cols-2 gap-4 text-center pb-12">
+<!-- github cards -->
+<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
+<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
+<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
+<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
+<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
+<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
 
 </div>
-</div>
-
-
-<div class="container mx-auto pt-24">
-
-
 </div>
 
 
+<Footer></Footer>
 
 </div>
 
@@ -153,11 +152,13 @@
     import CvImage from "../assets/cv_pic.webp"
     import ProgressBar from "../components/ProgressBar.vue"
     import ProjectCard from "../components/ProjectCard.vue"
+    import Footer from "../components/Footer.vue"
 
     export default {
         components: {
           ProgressBar,
-          ProjectCard
+          ProjectCard,
+          Footer
         },
 
         data: function () {
