@@ -116,8 +116,6 @@
   <li>
 <p> Positive and Goal-oriented Personality </p>
   </li>
-
-
 </ul>
 
 </div>
@@ -126,17 +124,10 @@
 
 <div class="container mx-auto pt-4 w-3/4">
   <h1 class="font-semi-bold text-center text-4xl pb-12 font-sans"> Projects  </h1>
-<div class="grid grid-cols-2 gap-4 text-center pb-12">
+</div>
 <!-- github cards -->
-<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
-<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
-<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
-<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
-<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
-<ProjectCard projectname="Random Project" summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet facilisis magna etiam tempor orci eu lobortis." codelang="HTML"></ProjectCard>
+<Projects></Projects>
 
-</div>
-</div>
 
 
 <Footer></Footer>
@@ -151,22 +142,27 @@
 <script>
     import CvImage from "../assets/cv_pic.webp"
     import ProgressBar from "../components/ProgressBar.vue"
-    import ProjectCard from "../components/ProjectCard.vue"
+    import GithubCard from "../components/GithubCard.vue"
     import Footer from "../components/Footer.vue"
+    import Projects from "../components/Projects.vue"
 
     export default {
         components: {
           ProgressBar,
-          ProjectCard,
-          Footer
+          GithubCard,
+          Footer,
+          Projects
         },
-
-        data: function () {
-            return {
-                CvImage: CvImage
-            }
-        }
-    }
+  data() {
+    return {
+        CvImage: CvImage
+        
+    };
+  },
+  methods: {
+    
+  },    
+}
 </script>
 
 <style lang="scss">
