@@ -11,7 +11,7 @@
                 </p>
 
                 <p class="text-gray-400">
-                     Project is open source @Github 
+                  <!-- Project is open source @Github -->   
                 </p>
 
             </div>
