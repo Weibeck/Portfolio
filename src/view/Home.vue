@@ -8,7 +8,7 @@
       <h1 class="text-white font-sans">Mathias Weibeck</h1>
       <p class="line-1 text-white pt-4">UX-Design / Front End - Denmark - Passion for technology</p>
 
-      <ul class="list-none flex justify-center space-x-4 pt-24">
+      <ul class="list-none flex justify-center space-x-4 pt-20">
         <li>
           <a href="https://github.com/" class="social-btn hover:text-gray-800">
             <i>
@@ -34,12 +34,18 @@
           <a href="https://www.linkedin.com/"> <i class="social-btn hover:text-gray-900"> <fa :icon="['fab', 'linkedin']" size="xs" href="#" /></i></a>
         </li>
       </ul>
+<div class="flex justify-center pt-12">
+      <button v-on:click="scrollToElement({behavior: 'smooth'})" class="social-btn bg-transparent hover:bg-white text-white font-semibold hover:text-gray-900 py-2 px-12 mx-8 border border-white hover:border-transparent rounded">
+ <div class="text-lg">Read More </div>
+</button>
+
+</div>
     </div>
   </div>
 </div>
 </div>
 
-<div class="item bg-gray-100"> 
+<div class="about-me item bg-gray-100"> 
 <div class="container mx-auto px-4 bg-white shadow-lg">
 <div class="grid grid-rows-3 grid-flow-col gap-4">
 <div class="row-span-3 py-8 pl-16">
@@ -82,7 +88,7 @@
 <ProgressBar skill='JavaScript' percent="75%"></ProgressBar>
 <ProgressBar skill='C#' percent="50%"></ProgressBar>
 <ProgressBar skill='React.js' percent="45%"></ProgressBar>
-<ProgressBar skill='Vue.js' percent="55%"></ProgressBar>
+<ProgressBar skill='Vue.js' percent="50%"></ProgressBar>
 <ProgressBar skill='Phaser.js' percent="70%"></ProgressBar>
 </div>
 
@@ -160,7 +166,10 @@
     };
   },
   methods: {
-    
+     scrollToElement(options) {
+      document.getElementsByClassName('about-me')[0].scrollIntoView(options);
+      
+     },
   },    
 }
 </script>

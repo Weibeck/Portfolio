@@ -5,8 +5,11 @@
            <div class="container mx-auto">
 
        <div class="p-12">
-                           <a href="https://raw.githubusercontent.com/Weibeck/resume/main/Mathias_Weibeck_CV.pdf" class="text-white p-4 right">Full Version (Download Here)</a>
-                    <vue-pdf-embed :source="source1" />
+                           <a href="https://raw.githubusercontent.com/Weibeck/resume/main/Mathias_Weibeck_CV.pdf" class="text-white float-right">Full Version (Download Here)</a>
+                    <div class="">
+                        <vue-pdf-embed :source="source1" />
+                    </div>
+                    
 
        </div>
     </div>
@@ -30,6 +33,6 @@ export default {
 </script>
 <style lang="scss">
     body {
-        background-color: rgb(66, 66, 66);
+        background-color: rgb(105, 105, 105);
     }
 </style>

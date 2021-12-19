@@ -78,7 +78,7 @@ nav a.router-link-exact-active {
   }
 
 nav.scrolled {
-  background-color: rgba($color: rgb(236, 236, 236), $alpha: 0.7);
+  background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.7);
   transition: ease-in 250ms;
 a{
   color: rgba($color: black, $alpha: 1.0);
