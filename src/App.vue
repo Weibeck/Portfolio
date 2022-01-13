@@ -1,5 +1,5 @@
 <template>
-<nav :class="{ 'scrolled': !atTopOfPage }" class="w-screen mx-auto px-2 sm:px-6 lg:px-8">
+<nav :class="{ 'scrolled': !atTopOfPage }" class="mx-auto px-2 sm:px-6 lg:px-8 rounded-lg">
   <div>
     <div class="flex items-center h-16">
       <router-link
@@ -22,8 +22,7 @@ export default {
       return {
         menuItems: [
           {title: "Home", link: "/"},
-          {title: "Resume", link: "/resume"},
-          {title: "About", link: "/about"},
+          {title: "Resume", link: "/resume"}
         ],
         atTopOfPage: true  
       };
@@ -60,8 +59,8 @@ nav {
 
 nav a {
   text-decoration: none;
-  margin: 10px;
-  font-size: 1.1em;
+  margin: 7px;
+  font-size: 1em;
   font-weight: 200;
   color: whitesmoke;
   letter-spacing: 1px;
@@ -78,7 +77,6 @@ nav a.router-link-exact-active {
   }
 
 nav.scrolled {
-  background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.7);
   transition: ease-in 250ms;
 a{
   color: rgba($color: black, $alpha: 1.0);

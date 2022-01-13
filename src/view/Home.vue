@@ -36,16 +36,16 @@
       </ul>
 <div class="flex justify-center pt-12">
       <button v-on:click="scrollToElement({behavior: 'smooth'})" class="social-btn bg-transparent hover:bg-white text-white font-semibold hover:text-gray-900 py-2 px-12 mx-8 border border-white hover:border-transparent rounded">
- <div class="text-lg">Read More </div>
+ <div class="text-lg"> Read More </div>
 </button>
 
 </div>
-    </div>
-  </div>
+</div>
+</div>
 </div>
 </div>
 
-<div class="about-me item bg-gray-100"> 
+<div class="about-me bg-gray-100"> 
 <div class="container mx-auto px-4 bg-white shadow-lg">
 <div class="grid grid-rows-3 grid-flow-col gap-4">
 <div class="row-span-3 py-8 pl-16">
@@ -70,8 +70,8 @@
     </blockquote>
 
 <div class="pt-6">
- <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-  <a href="/about"> Read More</a>
+ <button type="button" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" @click="showModal">
+  About Me
 </button>
 </div>
 
@@ -79,6 +79,63 @@
 </div>
 
 </div>
+    <Modal
+      v-show="isModalVisible"
+      @close="closeModal">
+      
+        <template v-slot:header>
+
+  </template>
+
+  <template v-slot:body>
+    <div class="container">
+    <div class="grid grid-cols-6 gap-4">
+
+      <div class="col-span-2 pl-20">
+<img class="rounded-xl mx-auto" :src="TreeImage" alt="Yggdrasil, the tree of life, also known as the world tree" width="384" height="512">
+</div>
+
+<div class="col-span-3 pt-16 pr-16">
+    <blockquote>
+      <p class="font-sans tracking-wide w-auto text-center text-lg font-light">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus inventore quo ipsa sint, dolor pariatur ratione molestias doloribus itaque, quia iusto expedita voluptates maxime totam. Sunt qui consequuntur optio quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores blanditiis, nemo voluptatum atque, quidem provid
+      </p>
+    </blockquote>
+</div>
+
+<div class="col-start-2 col-span-3 pt-16">
+    <blockquote>
+      <p class="font-sans tracking-wide w-auto text-center text-lg font-light pt-2">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus inventore quo ipsa sint, dolor pariatur ratione molestias doloribus itaque, quia iusto expedita voluptates maxime totam. Sunt qui consequuntur optio quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores blanditiis, nemo voluptatum atque, quidem provid
+      </p>
+    </blockquote>
+</div>
+
+      <div class="col-span-2 pr-20">
+<img class="rounded-xl mx-auto" :src="VegvisirImage" alt="The Vegvisir, also known as the viking compass" width="384" height="512">
+</div>
+
+
+      <div class="col-span-2 pl-20">
+<img class="rounded-xl mx-auto" :src="HelmAweImage" alt="Aegishjalmur, also known as the helm of awe" width="384" height="512">
+</div>
+
+<div class="col-span-3 pt-16">
+    <blockquote>
+      <p class="font-sans tracking-wide w-auto text-center text-lg font-light pt-2">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus inventore quo ipsa sint, dolor pariatur ratione molestias doloribus itaque, quia iusto expedita voluptates maxime totam. Sunt qui consequuntur optio quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores blanditiis, nemo voluptatum atque, quidem provid
+      </p>
+    </blockquote>
+</div>
+</div>
+</div>
+</template>
+
+  <template v-slot:footer>
+
+  </template>
+      </Modal>
+
 <div class="container mx-auto px-4 bg-blue-900 justify-center text-white mb-8">
 <div class="grid grid-cols-2 space-x-8">
 <!-- skill sets -->
@@ -94,7 +151,7 @@
 
 <div>
   <h3 class="font-medium tracking-wide text-center text-4xl py-4 font-sans">Soft Skills</h3>
-<ul class="list-disc relative p-7 font-sans tracking-wide w-auto text-left text-2xl font-semi-bold">
+<ul class="list-disc p-7 font-sans tracking-wide w-auto text-left text-2xl font-semi-bold">
   <li>
 <p> Critical Thinker </p>
   </li>
@@ -151,17 +208,27 @@
     import GithubCard from "../components/GithubCard.vue"
     import Footer from "../components/Footer.vue"
     import Projects from "../components/Projects.vue"
+    import Modal from '../components/Modal.vue'
+    import TreeImage from '../assets/Tree.png'
+    import HelmAweImage from '../assets/helm_of_awe.png'
+    import VegvisirImage from '../assets/vegvisir.png'
 
     export default {
         components: {
           ProgressBar,
           GithubCard,
           Footer,
-          Projects
+          Projects,
+          Modal
         },
+        
   data() {
     return {
-        CvImage: CvImage
+        CvImage: CvImage,
+        isModalVisible: false,
+        TreeImage: TreeImage,
+        HelmAweImage: HelmAweImage,
+        VegvisirImage: VegvisirImage
         
     };
   },
@@ -170,6 +237,13 @@
       document.getElementsByClassName('about-me')[0].scrollIntoView(options);
       
      },
+
+     showModal() {
+        this.isModalVisible = true;
+      },
+      closeModal() {
+        this.isModalVisible = false;
+      },
   },    
 }
 </script>
@@ -198,6 +272,18 @@
 .main-wrap {
   margin: 10px;
 }
+
+// For Dark Mode
+.dark-full-bg{
+background-color: #121212;
+}
+.dark-full-light-bg{
+  background-color: #181818;
+}
+.dark-light-focus-bg{
+background-color: #404040;
+}
+// WIP ^^^ ^^^^^ ^^^
 
 .main-wrap h1 {
   animation: fadeAnim ease-in 2s;
@@ -232,6 +318,7 @@
   animation-fill-mode: forwards;
   animation-delay: 1s;
 }
+
 
 @keyframes fade-in-move-down {
   0% {

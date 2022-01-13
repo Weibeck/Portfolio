@@ -8,6 +8,7 @@ import App from './App.vue'
 import router from './router'
 
 
+
 library.add(faGithub, faYoutube, faTwitter, faLinkedin, faFacebook, faInstagram, faHome);
 
 
