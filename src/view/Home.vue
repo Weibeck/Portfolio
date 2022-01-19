@@ -95,18 +95,18 @@
 <img class="rounded-xl mx-auto" :src="TreeImage" alt="Yggdrasil, the tree of life, also known as the world tree" width="384" height="512">
 </div>
 
-<div class="col-span-3 pt-16 pr-16">
+<div class="col-span-3 pt-12 pr-16">
     <blockquote>
       <p class="font-sans tracking-wide w-auto text-center text-lg font-light">
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus inventore quo ipsa sint, dolor pariatur ratione molestias doloribus itaque, quia iusto expedita voluptates maxime totam. Sunt qui consequuntur optio quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores blanditiis, nemo voluptatum atque, quidem provid
+        Born and raised in Denmark &#x1F1E9;&#x1F1F0; I was the kid in high school that couldn’t wait to finish my homework, so I could go spend time on my interests which was computer games and bikes. I have always had an ambitious personality and I love a challenge. When I get my hands on something that is a real challenge, I charge towards it because I want to beat it. This especially showed in the games I played, the projects I gave myself, and I was always striving to put the hard work and effort in to win. 
       </p>
     </blockquote>
 </div>
 
-<div class="col-start-2 col-span-3 pt-16">
+<div class="col-start-2 col-span-3 pt-12">
     <blockquote>
       <p class="font-sans tracking-wide w-auto text-center text-lg font-light pt-2">
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus inventore quo ipsa sint, dolor pariatur ratione molestias doloribus itaque, quia iusto expedita voluptates maxime totam. Sunt qui consequuntur optio quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores blanditiis, nemo voluptatum atque, quidem provid
+        I started college where I had the idea of becoming a financial employee. while working towards this, I found myself busier installing development applications and learning coding through various guides on google. I was hooked on this whole internet thing; I want to develop and create awesome stuff, share my passion with others. My road was being laid down and I enrolled on a software related education. I ended with a bachelor’s degree in interaction / UX-Design and had software development as a big part of my time at the university.
       </p>
     </blockquote>
 </div>
@@ -120,10 +120,10 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus inventore 
 <img class="rounded-xl mx-auto" :src="HelmAweImage" alt="Aegishjalmur, also known as the helm of awe" width="384" height="512">
 </div>
 
-<div class="col-span-3 pt-16">
+<div class="col-span-3 pt-12">
     <blockquote>
       <p class="font-sans tracking-wide w-auto text-center text-lg font-light pt-2">
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus inventore quo ipsa sint, dolor pariatur ratione molestias doloribus itaque, quia iusto expedita voluptates maxime totam. Sunt qui consequuntur optio quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores blanditiis, nemo voluptatum atque, quidem provid
+        I work with front-end software development because I love it. I love the people; I like the industry and most of all I want the user to have an experience that will stick with them for many years to come. I want to make people feel the quality and care in a product. Set a standard that will make the user experience from A-to-Z shine through, be the hidden factor that makes people return and subconsciously have an amazing journey. I hope we will cross paths in the real world one day and create something great together.
       </p>
     </blockquote>
 </div>
@@ -205,7 +205,6 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus inventore 
 <script>
     import CvImage from "../assets/cv_pic.webp"
     import ProgressBar from "../components/ProgressBar.vue"
-    import GithubCard from "../components/GithubCard.vue"
     import Footer from "../components/Footer.vue"
     import Projects from "../components/Projects.vue"
     import Modal from '../components/Modal.vue'
@@ -216,7 +215,6 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus inventore 
     export default {
         components: {
           ProgressBar,
-          GithubCard,
           Footer,
           Projects,
           Modal
