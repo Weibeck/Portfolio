@@ -6,7 +6,7 @@
   <div class="flex justify-center text-7xl pt-72">
     <div class="main-wrap">
       <h1 class="text-white font-sans">Mathias Weibeck</h1>
-      <p class="line-1 text-white pt-4">UX-Design / Front End - Denmark - Passion for technology</p>
+      <p class="line-1 text-white pt-4">UX-Design / Front End Development - Passion for technology</p>
 
       <ul class="list-none flex justify-center space-x-4 pt-20">
         <li>
@@ -92,7 +92,7 @@
     <div class="grid grid-cols-6 gap-4">
 
       <div class="col-span-2 pl-20">
-<img class="rounded-xl mx-auto hover:text-gray-800" :src="TreeImage" alt="Yggdrasil, the tree of life, also known as the world tree" width="384" height="512">
+<img class="rounded-xl mx-auto viking-icon:hover" :src="TreeImage" alt="Yggdrasil, the tree of life, also known as the world tree" width="384" height="512">
 </div>
 
 <div class="col-span-3 pt-12 pr-16">
@@ -283,7 +283,10 @@ background-color: #404040;
 }
 // WIP ^^^ ^^^^^ ^^^
 
-img
+.viking-icon:hover{
+filter: hue-rotate(180deg);
+-webkit-filter: hue-rotate(180deg);
+}
 
 .main-wrap h1 {
   animation: fadeAnim ease-in 2s;
