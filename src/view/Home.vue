@@ -92,7 +92,7 @@
     <div class="grid grid-cols-6 gap-4">
 
       <div class="col-span-2 pl-20">
-<img class="rounded-xl mx-auto" :src="TreeImage" alt="Yggdrasil, the tree of life, also known as the world tree" width="384" height="512">
+<img class="rounded-xl mx-auto hover:text-gray-800" :src="TreeImage" alt="Yggdrasil, the tree of life, also known as the world tree" width="384" height="512">
 </div>
 
 <div class="col-span-3 pt-12 pr-16">
@@ -106,7 +106,7 @@
 <div class="col-start-2 col-span-3 pt-12">
     <blockquote>
       <p class="font-sans tracking-wide w-auto text-center text-lg font-light pt-2">
-        I started college where I had the idea of becoming a financial employee. while working towards this, I found myself busier installing development applications and learning coding through various guides on google. I was hooked on this whole internet thing; I want to develop and create awesome stuff, share my passion with others. My road was being laid down and I enrolled on a software related education. I ended with a bachelor’s degree in interaction / UX-Design and had software development as a big part of my time at the university.
+        When I started college I initially decided to go into finance. While working towards this for a year, burgeoning passion began to emerge for the development of applications and coding. I initially taught myself through various forums and online communities. I was hooked on this whole internet thing; I want to develop and create awesome stuff, share my passion with others. My road was being laid down and I enrolled on a software related education. I ended with a bachelor’s degree in interaction / UX-Design and had software development as a big part of my time at the university.
       </p>
     </blockquote>
 </div>
@@ -216,8 +216,8 @@
         components: {
           ProgressBar,
           Footer,
+          Modal,
           Projects,
-          Modal
         },
         
   data() {
@@ -271,7 +271,7 @@
   margin: 10px;
 }
 
-// For Dark Mode
+// Dark Mode
 .dark-full-bg{
 background-color: #121212;
 }
@@ -282,6 +282,8 @@ background-color: #121212;
 background-color: #404040;
 }
 // WIP ^^^ ^^^^^ ^^^
+
+img
 
 .main-wrap h1 {
   animation: fadeAnim ease-in 2s;
