@@ -29,7 +29,7 @@ C#
   
   <GithubCard>
 <template v-slot:title>
-Example Project
+Word Dictionary
 </template>
 
 <template v-slot:summary>
@@ -40,6 +40,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquam a
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia porro tenetur corrupti sit asperiores. Asperiores eaque corporis voluptas laboriosam odit nihil suscipit quasi quis! Laborum quod asperiores atque non assumenda.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit laboriosam fugit consequatur ad corporis magnam voluptatum, quam a alias, obcaecati consequuntur sequi illum, cumque voluptate possimus atque cupiditate dolorem voluptas.
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae assumenda laudantium explicabo deserunt, soluta labore vitae esse veritatis repellendus eius quia quod magni molestias a enim nostrum eveniet sequi accusamus.
+
 </template>
 
 <template v-slot:footer>
@@ -49,22 +50,6 @@ JavaScript
 
   </swiper-slide>
   
-  <swiper-slide>
-    
-
-  </swiper-slide>
-  
-  <swiper-slide>
-    
-
-  </swiper-slide>
-  
-  <swiper-slide>
-    
-
-  </swiper-slide>
-  
-  <swiper-slide>Slide 6</swiper-slide><swiper-slide>Slide 7</swiper-slide><swiper-slide>Slide 8</swiper-slide><swiper-slide>Slide 9</swiper-slide>
   </swiper>
 </template>
 

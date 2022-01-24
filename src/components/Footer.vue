@@ -1,5 +1,5 @@
 <template lang="">
-    <div class="footer bg-black relative pt-1 border-b-2 border-black">
+    <div class="footer footer-bg relative pt-1 border-b-2 border-black">
         <div class="container mx-auto p-4 flex flex-col items-center">
            
         </div>
@@ -23,6 +23,8 @@ export default {
     
 }
 </script>
-<style lang="">
-    
+<style lang="scss">
+    .footer-bg{
+        background-color: #181818;
+    }
 </style>

@@ -46,7 +46,7 @@
 </div>
 
 <div class="about-me bg-gray-100"> 
-<div class="container mx-auto px-4 bg-white shadow-lg">
+<div class="container mx-auto px-4 bg-white shadow-lg w-4/5">
 <div class="grid grid-rows-3 grid-flow-col gap-4">
 <div class="row-span-3 py-8 pl-16">
 <img class="rounded-xl mx-auto shadow-xl" :src="CvImage" alt="Profile Picture" width="384" height="512">
@@ -136,7 +136,7 @@
   </template>
       </Modal>
 
-<div class="container mx-auto px-4 bg-blue-900 justify-center text-white mb-8">
+<div class="container mx-auto px-4 bg-blue-900 justify-center w-4/5 text-white mb-8">
 <div class="grid grid-cols-2 space-x-8">
 <!-- skill sets -->
 <div>
@@ -144,8 +144,8 @@
 <ProgressBar skill='HTML/CSS' percent="85%"></ProgressBar>
 <ProgressBar skill='JavaScript' percent="75%"></ProgressBar>
 <ProgressBar skill='C#' percent="50%"></ProgressBar>
-<ProgressBar skill='React.js' percent="45%"></ProgressBar>
-<ProgressBar skill='Vue.js' percent="50%"></ProgressBar>
+<ProgressBar skill='React.js' percent="35%"></ProgressBar>
+<ProgressBar skill='Vue.js' percent="55%"></ProgressBar>
 <ProgressBar skill='Phaser.js' percent="70%"></ProgressBar>
 </div>
 
@@ -185,13 +185,14 @@
 </div>
 </div>
 
-<div class="container mx-auto pt-4 w-3/4">
-  <h1 class="font-semi-bold text-center text-4xl pb-12 font-sans"> Projects  </h1>
+<div class="container mx-auto pt-4">
+  <h2 class="font-medium tracking-wide text-center text-4xl pb-8 font-sans"> Projects  </h2>
 </div>
+
 <!-- github cards -->
 <Projects></Projects>
 
-
+<Contact></Contact>
 
 <Footer></Footer>
 
@@ -211,6 +212,7 @@
     import TreeImage from '../assets/Tree.png'
     import HelmAweImage from '../assets/helm_of_awe.png'
     import VegvisirImage from '../assets/vegvisir.png'
+    import Contact from "../components/Contact.vue"
 
     export default {
         components: {
@@ -218,6 +220,7 @@
           Footer,
           Modal,
           Projects,
+          Contact
         },
         
   data() {

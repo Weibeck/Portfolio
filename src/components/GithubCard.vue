@@ -1,5 +1,5 @@
 <template lang="">
-<div class="grid grid-cols-1 w-3/4 h-auto bg-white shadow-lg rounded p-2 font-sans mx-auto mb-12">
+<div class="grid grid-cols-1 h-auto bg-white shadow-lg rounded w-4/5 p-2 font-sans mx-auto mb-12">
 
 <!-- Title Slot -->
 <div class="flex min-h-full p-2"> 
@@ -31,7 +31,7 @@
 
 <footer class="text-left p-4 font-semibold">
   <slot name="footer">
-          Footah
+          Footer
   </slot>
 </footer>
 

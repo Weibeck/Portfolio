@@ -33,7 +33,7 @@ beforeMount () {
 
 methods: {
     handleScroll(){
-        if(window.pageYOffset>900){
+        if(window.pageYOffset>920){
             if(this.atTopOfPage) this.atTopOfPage = false
         }else{
             if(!this.atTopOfPage) this.atTopOfPage = true
@@ -79,7 +79,7 @@ nav a.router-link-exact-active {
 nav.scrolled {
   transition: ease-in 250ms;
 a{
-  color: rgba($color: black, $alpha: 1.0);
+  color: rgba($color: #181818, $alpha: 1.0);
 }
 a:hover {
   font-weight: 500;
