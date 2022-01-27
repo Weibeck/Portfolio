@@ -7,7 +7,7 @@
         <div class="container mx-auto px-4">
             <div class="border-t-2 border-white flex flex-col items-center">
                 <p class="text-center text-white font-light pt-4">
-                   © 2021 - Made by Mathias Weibeck with vue.js
+                   © 2021 - Made with Vue.js and TailWind CSS
                 </p>
 
                 <p class="text-gray-400">

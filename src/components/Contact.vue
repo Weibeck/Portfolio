@@ -18,7 +18,7 @@
     <div class="col-span-2 pb-12 pt-8">
         <p class="text-center">
         <a href="mailto:weibeck@outlook.com" class="font-sans tracking-wide w-auto text-left text-4xl font-light btn-footer">
-            Email Me
+           <fa :icon="['fa', 'envelope']" size="xl"/> Email Me
         </a>
         </p>
     </div>
@@ -33,8 +33,8 @@
 
 <div class="col-span-2 pb-12 pt-8">
     <p class="text-center">
-      <a href="" class="font-sans tracking-wide w-auto text-left text-4xl font-light btn-footer">
-         <fa :icon="['fab', 'github']" size="xl" href="#" /> Visit my Github 
+      <a href="https://github.com/Weibeck" class="font-sans tracking-wide w-auto text-left text-4xl font-light btn-footer">
+         <fa :icon="['fab', 'github']" size="xl" /> Visit my Github 
       </a> 
     </p>
 </div>
