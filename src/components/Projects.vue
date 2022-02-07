@@ -9,19 +9,18 @@
 
 <div class="project1-bg grid grid-cols-6 grid-rows-2 gap-4 w-full h-80-screen mx-auto">
 
-<div class="col-start-1 col-span-3 row-start-1 text-gray-900 font-sans font-semibold pl-20 pt-4">
+<div class="col-start-1 col-span-3 row-start-1 text-gray-900 font-sans font-semibold pt-4">
 
 <h2 class="my-4 text-6xl">
 Personal Portfolio
 </h2>
 
 <p class="mb-4 text-xl">
-Scope: UX-Design & Website Development
+Scope: Website Development
 </p>
 
 <a class="text-lg text-blue-600 hover:text-gray-600" href="https://github.com/Weibeck/Portfolio" title="View full project on github" target="_blank">
 View Full Project
-
 </a>
 
 </div>

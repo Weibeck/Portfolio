@@ -25,7 +25,7 @@
         <slot name="footer">
           
         </slot>
-        <a href="https://www.linkedin.com/">
+        <a href="https://www.linkedin.com/in/mathias-weibeck-60855618b/">
         <button
           type="button"
           class="btn-linkedin">

@@ -8,7 +8,7 @@
 
 <!-- Summary Slot-->
 <div>
-<section class="p-4 border-b border-grey-darkest border-solid">
+<section class="p-4">
   <slot name="summary">
      Summary
   </slot>
@@ -18,7 +18,7 @@
   
  <!-- Code Language, creds, etc.--> 
 
-<footer class="text-center p-4 font-semibold text-gray-800">
+<footer class="text-center p-4 font-semibold text-gray-800 border-b border-grey-darkest border-solid">
   <slot name="footer">
           Footer
   </slot>

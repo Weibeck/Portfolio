@@ -10,28 +10,28 @@
 
       <ul class="list-none flex justify-center space-x-4 pt-20">
         <li>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/Weibeck" target="_blank">
             <i class="social-btn hover:text-gray-800">
               <fa :icon="['fab', 'github']" size="xs" href="#" />
             </i>
           </a>
         </li>
         <li>
-          <a href="https://www.youtube.com/" target="_blank">
+          <a href="https://www.youtube.com/channel/UC3_X_zajsSilbStdCx25ejg" target="_blank">
             <i class="social-btn hover:text-gray-900">
               <fa :icon="['fab', 'youtube']" size="xs" href="#" />
             </i>
           </a>
         </li>
         <li>
-          <a href="https://twitter.com" target="_blank">
+          <a href="https://twitter.com/mathiasweibeck" target="_blank">
             <i class="social-btn hover:text-gray-900">
               <fa :icon="['fab', 'twitter']" size="xs" href="#" />
             </i>
           </a>
         </li>
         <li> 
-          <a href="https://www.linkedin.com/" target="_blank"> 
+          <a href="https://www.linkedin.com/in/mathias-weibeck-60855618b/" target="_blank"> 
             <i class="social-btn hover:text-gray-900"> 
               <fa :icon="['fab', 'linkedin']" size="xs" href="#" />
               </i>
@@ -140,63 +140,13 @@
   </template>
       </Modal>
 
-<div class="container mx-auto px-4 content-card-bg justify-center w-4/5 text-white mb-8">
-<div class="grid grid-cols-2 space-x-8">
-<!-- skill sets -->
-<div>
-<h3 class="font-medium tracking-wide text-center text-4xl py-4 font-sans">Hard Skills</h3>
-<ProgressBar skill='HTML/CSS' percent="85%"></ProgressBar>
-<ProgressBar skill='JavaScript' percent="75%"></ProgressBar>
-<ProgressBar skill='C#' percent="50%"></ProgressBar>
-<ProgressBar skill='React.js' percent="35%"></ProgressBar>
-<ProgressBar skill='Vue.js' percent="55%"></ProgressBar>
-<ProgressBar skill='Phaser.js' percent="70%"></ProgressBar>
-</div>
+<Skillset></Skillset>
 
-<div>
-  <h3 class="font-medium tracking-wide text-center text-4xl py-4 font-sans">Soft Skills</h3>
-<ul class="list-disc p-7 font-sans tracking-wide w-auto text-left text-2xl font-semi-bold">
-  <li>
-<p> Critical Thinker </p>
-  </li>
-  <li>
-<p> Eager to learn and evolve skillset </p>
-  </li>
-    <li>
-<p> Strong communication </p>
-  </li>
-    <li>
-<p> Familiar with Agile Workflow / SCRUM </p>
-  </li>
-    <li>
-<p> Quick Learner </p>
-  </li>
-      <li>
-<p> Creative Mindset </p>
-  </li>
-    <li>
-<p> Adaptability  </p>
-  </li>
-   <li>
-<p> Teamplayer - Dependability within a team environment </p>
-  </li>
-  <li>
-<p> Positive and Goal-oriented Personality </p>
-  </li>
-</ul>
+<UxProcess></UxProcess>
 
-</div>
-</div>
-</div>
+<div class="p-8 border-b border-grey-darkest border-solid mx-auto w-4/5"> </div>
 
-<div class="container mx-auto pt-4">
-  <div class="p-8  border-b border-grey-darkest border-solid">   </div>
-</div>
-
-<!-- github cards -->
 <Projects></Projects>
-
-<Contact></Contact>
 
 <Footer></Footer>
 
@@ -208,23 +158,27 @@
 </template>
 
 <script>
-    import CvImage from "../assets/cv_pic.webp"
-    import ProgressBar from "../components/ProgressBar.vue"
-    import Footer from "../components/Footer.vue"
-    import Projects from "../components/Projects.vue"
+
+    // Components
     import Modal from '../components/Modal.vue'
+    import Skillset from "../components/Skillset.vue"
+    import UxProcess from "../components/UxProcess.vue"
+    import Projects from "../components/Projects.vue"
+    import Footer from "../components/Footer.vue"
+    
+    // Assets
+    import CvImage from "../assets/cv_pic.webp"
     import TreeImage from '../assets/tree.webp'
     import HelmAweImage from '../assets/helm_of_awe.webp'
     import VegvisirImage from '../assets/vegvisir.webp'
-    import Contact from "../components/Contact.vue"
 
     export default {
         components: {
-          ProgressBar,
+          Skillset,
           Footer,
           Modal,
           Projects,
-          Contact
+          UxProcess
         },
         
   data() {
@@ -233,7 +187,7 @@
         isModalVisible: false,
         TreeImage: TreeImage,
         HelmAweImage: HelmAweImage,
-        VegvisirImage: VegvisirImage
+        VegvisirImage: VegvisirImage,
         
     };
   },
