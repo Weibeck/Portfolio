@@ -96,7 +96,7 @@
     <div class="grid grid-cols-6 gap-4">
 
       <div class="col-span-2 pl-20">
-<img class="rounded-xl mx-auto viking-icon:hover" :src="TreeImage" alt="Yggdrasil, the tree of life, also known as the world tree" width="384" height="512">
+<img class="rounded-xl mx-auto viking-icon:hover" :src="TreeImage" alt="Yggdrasil, the tree of life, also known as the world tree" width="235" height="234">
 </div>
 
 <div class="col-span-3 pt-12 pr-16">
@@ -116,12 +116,12 @@
 </div>
 
       <div class="col-span-2 pr-20">
-<img class="rounded-xl mx-auto" :src="VegvisirImage" alt="The Vegvisir, also known as the viking compass" width="384" height="512">
+<img class="rounded-xl mx-auto" :src="VegvisirImage" alt="The Vegvisir, also known as the viking compass" width="235" height="234">
 </div>
 
 
       <div class="col-span-2 pl-20">
-<img class="rounded-xl mx-auto" :src="HelmAweImage" alt="Aegishjalmur, also known as the helm of awe" width="384" height="512">
+<img class="rounded-xl mx-auto pb-8" :src="HelmAweImage" alt="Aegishjalmur, also known as the helm of awe" width="235" height="234">
 </div>
 
 <div class="col-span-3 pt-12">
@@ -213,9 +213,9 @@
     import Footer from "../components/Footer.vue"
     import Projects from "../components/Projects.vue"
     import Modal from '../components/Modal.vue'
-    import TreeImage from '../assets/tree.png'
-    import HelmAweImage from '../assets/helm_of_awe.png'
-    import VegvisirImage from '../assets/vegvisir.png'
+    import TreeImage from '../assets/tree.webp'
+    import HelmAweImage from '../assets/helm_of_awe.webp'
+    import VegvisirImage from '../assets/vegvisir.webp'
     import Contact from "../components/Contact.vue"
 
     export default {

@@ -16,10 +16,10 @@ Personal Portfolio
 </h2>
 
 <p class="mb-4 text-xl">
-Scope: UX-Design & Website
+Scope: UX-Design & Website Development
 </p>
 
-<a class="text-lg text-blue-600 hover:text-gray-600" href="https://github.com/Weibeck/Portfolio" title="View full project on github">
+<a class="text-lg text-blue-600 hover:text-gray-600" href="https://github.com/Weibeck/Portfolio" title="View full project on github" target="_blank">
 View Full Project
 
 </a>
