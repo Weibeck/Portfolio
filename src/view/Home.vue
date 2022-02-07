@@ -10,28 +10,32 @@
 
       <ul class="list-none flex justify-center space-x-4 pt-20">
         <li>
-          <a href="https://github.com/" class="social-btn hover:text-gray-800">
-            <i>
+          <a href="https://github.com/" target="_blank">
+            <i class="social-btn hover:text-gray-800">
               <fa :icon="['fab', 'github']" size="xs" href="#" />
             </i>
           </a>
         </li>
         <li>
-          <a href="https://www.youtube.com/">
+          <a href="https://www.youtube.com/" target="_blank">
             <i class="social-btn hover:text-gray-900">
               <fa :icon="['fab', 'youtube']" size="xs" href="#" />
             </i>
           </a>
         </li>
         <li>
-          <a href="https://twitter.com">
+          <a href="https://twitter.com" target="_blank">
             <i class="social-btn hover:text-gray-900">
               <fa :icon="['fab', 'twitter']" size="xs" href="#" />
             </i>
           </a>
         </li>
         <li> 
-          <a href="https://www.linkedin.com/"> <i class="social-btn hover:text-gray-900"> <fa :icon="['fab', 'linkedin']" size="xs" href="#" /></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"> 
+            <i class="social-btn hover:text-gray-900"> 
+              <fa :icon="['fab', 'linkedin']" size="xs" href="#" />
+              </i>
+              </a>
         </li>
       </ul>
 <div class="flex justify-center pt-12">
@@ -136,7 +140,7 @@
   </template>
       </Modal>
 
-<div class="container mx-auto px-4 bg-blue-900 justify-center w-4/5 text-white mb-8">
+<div class="container mx-auto px-4 content-card-bg justify-center w-4/5 text-white mb-8">
 <div class="grid grid-cols-2 space-x-8">
 <!-- skill sets -->
 <div>
@@ -186,7 +190,7 @@
 </div>
 
 <div class="container mx-auto pt-4">
-  <h2 class="font-medium tracking-wide text-center text-4xl pb-8 font-sans"> Projects  </h2>
+  <div class="p-8  border-b border-grey-darkest border-solid">   </div>
 </div>
 
 <!-- github cards -->
@@ -209,7 +213,7 @@
     import Footer from "../components/Footer.vue"
     import Projects from "../components/Projects.vue"
     import Modal from '../components/Modal.vue'
-    import TreeImage from '../assets/Tree.png'
+    import TreeImage from '../assets/tree.png'
     import HelmAweImage from '../assets/helm_of_awe.png'
     import VegvisirImage from '../assets/vegvisir.png'
     import Contact from "../components/Contact.vue"
@@ -283,6 +287,10 @@ background-color: #121212;
 }
 .dark-light-focus-bg{
 background-color: #404040;
+}
+
+.content-card-bg{
+  background-color:#37475a;
 }
 // WIP ^^^ ^^^^^ ^^^
 

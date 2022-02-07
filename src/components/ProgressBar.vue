@@ -7,7 +7,7 @@
 
 <div class="pt-2 py-2">
   <div class="overflow-hidden h-4 text-xs flex rounded bg-white shadow-lg">
-    <div :style="style" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-500"> 
+    <div :style="style" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center progress-bar-bg"> 
     </div>
   </div>
 </div>
@@ -35,5 +35,8 @@ export default {
 .percent-class{
     width: var(--width);
 }
-    
+
+.progress-bar-bg{
+    background-color:#febd69;
+}
 </style>
