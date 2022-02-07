@@ -11,7 +11,7 @@ My goal was to create a personal portfolio website from scratch to showcase.
 - My projects -> Open Source
 - Contact section
 
-[**Live Version**](https://mathiasweibeck.com/)
+[**Follow Development @ Live Version**](https://mathiasweibeck.com/)
 
 ## Technology used
 - Vue.JS
