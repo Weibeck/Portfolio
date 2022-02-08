@@ -49,7 +49,7 @@
     </p>
 </div>
 
-<img class="col-start-2 row-span-5 mx-auto pt-6" :src="UxProcess" alt="UX design process illustrated">
+<img class="col-start-2 row-span-5 mx-auto pt-6" :src="UxProcess" alt="UX design process illustrated" width="250" height="900">
 
 </div>
 </div>
