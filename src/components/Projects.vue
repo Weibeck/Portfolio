@@ -19,7 +19,7 @@ Personal Portfolio
 Scope: Website Development
 </p>
 
-<a class="text-lg text-blue-600 hover:text-gray-600" href="https://github.com/Weibeck/Portfolio" title="View full project on github" target="_blank">
+<a class="text-lg text-blue-600 font-medium hover:text-gray-600" href="https://github.com/Weibeck/Portfolio" title="View full project on github" target="_blank">
 View Full Project
 </a>
 

@@ -141,13 +141,15 @@
       </Modal>
 
 <Skillset></Skillset>
-
 <UxProcess></UxProcess>
+<div class="pt-28">
+<div class="p-4 border-b border-t border-grey-darkest border-solid mx-auto w-4/5"> 
+    <h2 class="font-medium tracking-wide text-center text-5xl">Open Source Projects</h2>
 
-<div class="p-8 border-b border-grey-darkest border-solid mx-auto w-4/5"> </div>
+</div>
+</div>
 
 <Projects></Projects>
-
 <Footer></Footer>
 
 </div>
