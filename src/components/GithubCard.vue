@@ -1,5 +1,5 @@
 <template lang="">
-<div class="grid grid-cols-1 h-4/5 w-4/5 p-2 font-sans mx-auto mb-12">
+<div class="grid grid-cols-1 xl:h-4/5 xl:w-4/5 p-2 font-sans mx-auto xl:mb-12">
 
 <!-- Title Slot -->
 
@@ -18,7 +18,7 @@
   
  <!-- Code Language, creds, etc.--> 
 
-<footer class="text-center p-4 font-semibold text-gray-800 border-b border-grey-darkest border-solid">
+<footer class="text-center pb-4 font-semibold text-gray-800 border-b border-grey-darkest border-solid">
   <slot name="footer">
           Footer
   </slot>

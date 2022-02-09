@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       height: { 
-              '80-screen': '80vh',   
+              '80-screen': '80vh',  
+              '55-screen': '55vh', 
                }
     },
   },

@@ -3,7 +3,7 @@
 <div class="item">
 <div id="front">
   <!-- Front page-->
-  <div class="flex justify-center text-7xl pt-72">
+  <div class="flex justify-center text-7xl pt-56 sm:pt-72">
     <div class="main-wrap">
       <h1 class="text-white font-sans">Mathias Weibeck</h1>
       <p class="line-1 text-white pt-4">UX-Design / Front End Development - Passion for technology</p>
@@ -50,30 +50,31 @@
 </div>
 
 <div class="about-me bg-gray-100"> 
-<div class="container mx-auto px-4 bg-white shadow-lg w-4/5">
-<div class="grid grid-rows-3 grid-flow-col gap-4">
-<div class="row-span-3 py-8 pl-16">
-<img class="rounded-xl mx-auto shadow-xl" :src="CvImage" alt="Profile Picture" width="384" height="512">
+<div class="container mx-auto px-4 bg-white shadow-lg xl:w-4/5">
+<div class="grid grid-rows-3 grid-flow-col gap-2 xl:gap-4">
+<div class="row-span-3 pt-8 xl:py-8 xl:pl-16">
+<img class="rounded-xl mx-auto shadow-xl sm:pb-4" :src="CvImage" alt="Profile Picture" width="384" height="512">
 </div>
 <!-- quick about me -->
-<div class="col-span-2">
-<blockquote>
-      <h2 class="font-medium tracking-wide text-left text-7xl pt-16">
+
+
+
+<div class="row-span-2">
+  <blockquote>
+      <h2 class="font-medium tracking-wide text-center xl:text-left text-2xl pt-8 pb-2 sm:text-5xl xl:text-7xl sm:pb-12 xl:pt-16 xl:pb-8">
         Hello There!
       </h2>
     </blockquote>
-</div>
 
-<div class="row-span-2">
 <blockquote>
-      <p class="font-sans tracking-wide w-auto text-left text-2xl font-light">
+      <p class="font-sans tracking-wide w-auto text-center xl:text-left sm:text-2xl font-light">
         I'm Mathias Weibeck, <br>
-        UX Designer - Graduate 2019 <span style='font-size:35px;'>&#127891;</span> <br>
+        UX Designer - Graduate 2019 <span class="hidden xl:inline-block" style='font-size:35px;'>&#127891;</span> <br>
         Southern University of Denmark
       </p>
     </blockquote>
 
-<div class="pt-6">
+<div class="pt-4 w-max mx-auto xl:mx-0">
  <button type="button" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" @click="showModal">
   About Me
 </button>
@@ -143,8 +144,8 @@
 <Skillset></Skillset>
 <UxProcess></UxProcess>
 <div class="pt-28">
-<div class="p-4 border-b border-t border-grey-darkest border-solid mx-auto w-4/5"> 
-    <h2 class="font-medium tracking-wide text-center text-5xl">Open Source Projects</h2>
+<div class="py-2 xl:py-4 border-b border-t border-grey-darkest border-solid mx-auto w-4/5"> 
+    <h2 class="font-medium tracking-wide text-center text-3xl xl:text-5xl">Open Source Projects</h2>
 
 </div>
 </div>
