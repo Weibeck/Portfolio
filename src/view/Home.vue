@@ -53,11 +53,9 @@
 <div class="container mx-auto px-4 bg-white shadow-lg xl:w-4/5">
 <div class="grid grid-rows-3 grid-flow-col gap-2 xl:gap-4">
 <div class="row-span-3 pt-8 xl:py-8 xl:pl-16">
-<img class="rounded-xl mx-auto shadow-xl sm:pb-4" :src="CvImage" alt="Profile Picture" width="384" height="512">
+<img class="rounded-xl mx-auto shadow-xl sm:pb-4 xl:pb-0" :src="CvImage" alt="Profile Picture" width="384" height="512">
 </div>
 <!-- quick about me -->
-
-
 
 <div class="row-span-2">
   <blockquote>

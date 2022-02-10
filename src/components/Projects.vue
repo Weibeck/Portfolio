@@ -7,6 +7,50 @@
 
 <template v-slot:summary>
 
+<div class="project2-bg grid grid-cols-6 grid-rows-3 gap-4 w-full h-55-screen xl:h-80-screen mx-auto">
+
+<div class="col-start-1 col-span-3 row-start-1 text-gray-900 font-sans font-semibold xl:pt-4">
+
+<h2 class="my-4 text-3xl xl:text-5xl">
+Browser Math Game
+</h2>
+
+<p class="mb-4 text-base xl:text-xl">
+Scope: Gamification & Web Development
+</p>
+
+<a class="text-blue-600 font-medi hover:text-gray-600 text-sm xl:text-lg" href="https://github.com/Weibeck/QuickMathPhaserJS" title="View full project on github" target="_blank">
+View Full Project
+</a>
+<span class="text-gray-900"> | </span>
+<a class="text-blue-600 font-medi hover:text-gray-600 text-sm xl:text-lg" href="https://weibeck.github.io/QuickMathPhaserJS/" title="View full project on github" target="_blank">
+Live Demo
+</a>
+
+</div>
+
+</div>
+
+</template>
+
+<template v-slot:footer>
+
+<section class="text-sm xl:text-base">
+Javascript 93.9% - CSS 3.3% - HTML 2.8%
+
+</section>
+
+</template>
+</GithubCard>
+
+  </swiper-slide>
+  
+  <swiper-slide>
+  
+<GithubCard>
+
+<template v-slot:summary>
+
 <div class="project1-bg grid grid-cols-6 grid-rows-2 gap-4 w-full h-55-screen xl:h-80-screen mx-auto">
 
 <div class="col-start-1 col-span-3 row-start-1 text-gray-900 font-sans font-semibold xl:pt-4">
@@ -38,25 +82,6 @@ Vue 92.5% - Javascript 6.0% - HTML 1.2% - CSS 0.3%
 
 </template>
 </GithubCard>
-
-  </swiper-slide>
-  
-  <swiper-slide>
-  
-  <GithubCard>
-<template v-slot:title>
-Word Dictionary
-</template>
-
-<template v-slot:summary>
-ADD MORE PROJECTS 
-</template>
-
-<template v-slot:footer>
-JavaScript
-</template>
-</GithubCard>
-
   </swiper-slide>
   
   </swiper>
@@ -106,6 +131,13 @@ export default {
 <style>
 .project1-bg{
    background-image: url("../assets/project_1.webp");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center center; 
+}
+
+.project2-bg{
+   background-image: url("../assets/project_2.webp");
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center center; 
