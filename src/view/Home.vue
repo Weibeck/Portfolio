@@ -73,7 +73,7 @@
     </blockquote>
 
 <div class="pt-4 w-max mx-auto xl:mx-0">
- <button type="button" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" @click="showModal">
+ <button type="button" class="hidden bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" @click="showModal">
   About Me
 </button>
 </div>
