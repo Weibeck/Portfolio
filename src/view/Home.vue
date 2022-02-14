@@ -141,7 +141,7 @@
 
 <Skillset></Skillset>
 <UxProcess></UxProcess>
-<div class="pt-28">
+<div class="xl:pt-28">
 <div class="py-2 xl:py-4 border-b border-t border-grey-darkest border-solid mx-auto w-4/5"> 
     <h2 class="font-medium tracking-wide text-center text-3xl xl:text-5xl">Open Source Projects</h2>
 

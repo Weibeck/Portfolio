@@ -12,9 +12,9 @@
 <ProgressBar skill='Phaser.js' percent="70%"></ProgressBar>
 </div>
 
-<div>
+<div class="border-l-4 px-4 border-white">
   <h3 class="font-bold text-lg xl:font-medium tracking-wide text-center sm:text-4xl py-4 font-sans">Soft Skills</h3>
-<ul class="list-disc sm:p-4 xl:p-7 font-sans tracking-wide w-auto text-left sm:text-xl xl:text-2xl font-semi-bold">
+<ul class="list-disc sm:p-4 xl:p-7 font-sans tracking-wide w-auto text-left sm:text-xl xl:text-2xl font-semi-bold ">
   <li>
 <p> Critical Thinker </p>
   </li>
