@@ -26,7 +26,7 @@
 </div>
 
 <!-- Analysis -->
-<div class="col-span-3 xl:col-start-1 xl:row-start-3 p-2">
+<div class="col-span-3 xl:col-span-1 xl:col-start-1 xl:row-start-3 p-2">
     <h3 class="text-lg font-semibold uppercase pb-1"> Analysis </h3>
     <p>
         I can create analysis of users to pinpoint and explore the reason to why they want and need a product. I will create personas for the product and develop user stories, to fully understand the timeline and experience a user goes through purchasing the product. 
@@ -34,7 +34,7 @@
 </div>
 
 <!-- Sketching -->
-<div class="col-span-3 xl:col-start-3 xl:row-start-4 p-2">
+<div class="col-span-3 xl:col-span-1 xl:col-start-3 xl:row-start-4 p-2">
     <h3 class="text-lg font-semibold uppercase pb-1"> Prototyping </h3>
     <p>
         I can create a simple visualization of the idea/concept for prototyping.  During the sketching process, I will create a fast sketch and illustration of how the concept/idea will look and function. This will help seeing how all the pieces will fit together in the product.
@@ -42,7 +42,7 @@
 </div>
 
 <!-- Test Phase -->
-<div class="col-span-3 xl:col-start-1 xl:row-start-5 p-2">
+<div class="col-span-3 xl:col-span-1 xl:col-start-1 xl:row-start-5 p-2">
     <h3 class="text-lg font-semibold uppercase pb-1"> Validation through Testing </h3>
     <p>
         I have experience getting feedback from end-users, and I am not shy to reach out for the feedback that is needed to get good results in the testing phase. This will help getting a new view on features, and much more in the product. 
