@@ -5,9 +5,9 @@
 My goal was to create a personal portfolio website from scratch to showcase. 
 
 - Simplistic landing page
-- Persona section -> **Who am i?**
+- Persona section 
 - Skillset illustrated
-- The process of my work -> **What do i do?**
+- The process of my work 
 - My projects -> Open Source
 - Contact section
 
