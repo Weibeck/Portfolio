@@ -76,7 +76,7 @@ View Full Project
 <template v-slot:footer>
 
 <section class="text-sm xl:text-base">
-Vue 92.5% - Javascript 6.0% - HTML 1.2% - CSS 0.3%
+Vue 91.7% - Javascript 5.5% - HTML 2.5% - CSS 0.3%
 
 </section>
 
