@@ -8,7 +8,7 @@ My goal was to create a personal portfolio website from scratch to showcase.
 - Persona section 
 - Skillset illustrated
 - The process of my work 
-- My projects -> Open Source
+- My projects 
 - Contact section
 
 [**Follow Development @ Live Version**](https://mathiasweibeck.com/)
